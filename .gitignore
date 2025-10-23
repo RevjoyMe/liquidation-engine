@@ -1,0 +1,40 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
+# ВАЖНО: Не загружать приватный ключ!
+hardhat.config.js
+.secret
+*.secret
+private-key.txt
+.private
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Build
+dist
+build
+.next
+out
+
+# Testing
+.coverage
+.coverage_contracts
+.coverage_compiler
+
